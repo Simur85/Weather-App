@@ -1,0 +1,34 @@
+form{
+    
+    margin-bottom: 5px;
+}
+
+#label{
+    
+    border-radius: 7px;
+    width: 250px;
+    height: 18px;    
+}
+@media (max-width: 500px) {
+    #label{
+        width: 130px;
+    }
+}
+
+#boton{
+    border-radius: 7px;
+    margin-left: 20px;
+    height: 22px;
+}
+@media (max-width: 500px) {
+    #boton{
+        margin-left: 10px;
+    }
+}
+
+
+#contieneForm{
+
+
+
+}

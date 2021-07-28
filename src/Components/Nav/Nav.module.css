@@ -1,0 +1,91 @@
+.contenedor{
+    color: white;
+    background-color:rgb(0, 40, 66) ;
+    text-align: center;
+    padding-top: 5px;
+    border-bottom: 5px solid rgb(247, 234, 165);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+
+}
+
+
+.divSearch{
+    width: 100%;
+    display: flex;
+    justify-content:space-between
+}
+
+.searchBar{
+    margin-bottom: 5px;
+}
+.slogan{
+    margin-top: 10px;
+    color: gold;
+    font-family: Bahnschrift Light;  
+}
+@media (max-width: 500px) {
+    .slogan{
+        font-size: 12px;
+    }
+}
+
+
+.app{
+    font-size: 60px;
+    margin-bottom: 10px;
+    margin-top: 20px;   
+    font-family: Bahnschrift Light;
+}
+@media (max-width: 500px) {
+    .app{
+        font-size: 35px;
+        text-align: center;
+    }
+}
+.iconSuport{
+    width: 50%;
+    display: flex;
+    padding-left: 10px;
+    align-items: flex-end;
+    margin-bottom: 5px;
+}
+@media (max-width: 500px) {
+    .iconSuport{
+        width: 40%;
+        align-items: flex-end;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+    }
+}
+.linkSearch{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+}
+@media (max-width: 500px) {
+    .linkSearch{
+        width: 60%;
+        align-items: flex-end;
+    }
+}
+.supported{
+    font-size: 11px;
+    font-weight: bold;
+    color: goldenrod;
+    font-family: Bahnschrift Light;
+}
+@media (max-width: 500px) {
+    .supported{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tituloSlogan{
+        width: 100%;
+    }
+}
+

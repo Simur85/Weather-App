@@ -1,0 +1,17 @@
+.tajetas{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(/src/Imagenes/dia.jpg);
+    background-attachment: fixed;
+    padding-top: 200px;
+}
+@media (max-width:500px) {
+    .tajetas{
+        padding-top: 150px;
+    }
+}
+
+
+
+
