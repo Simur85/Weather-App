@@ -13,6 +13,7 @@ function App() {
   const apiKey = '4ae2636d8dfbdc3044bede63951a019b';
   
   const onSearch = (nombreCiudad) =>{
+    if (nombreCiudad === 'Diego') nombreCiudad = 'new york'
     fetch(`https://api.openweathermap.org/data/2.5/weather?q=${nombreCiudad}&appid=${apiKey}&units=metric`)
       .then(response => response.json())
       .then(data =>{

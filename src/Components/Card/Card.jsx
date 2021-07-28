@@ -4,6 +4,7 @@ import style from './Card.module.css'
 
 
 export default function Card({name, temp, flag, img, onClose,id}) {
+    if(name === 'New York') name = 'Diego York'
     return (
         <div className = {style.ficha}>
             <div className = {style.divSuperior}>
