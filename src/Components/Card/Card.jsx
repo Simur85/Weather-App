@@ -22,7 +22,7 @@ export default function Card({name, temp, flag, img, onClose,id}) {
                 <p className = {style.tempNum}>{temp} °C</p>
             </div>
             <div className = {style.divImg}>
-                <p><img className = {style.img} src = {`http://openweathermap.org/img/wn/${img}@2x.png`}/></p>
+                <p><img className = {style.img} src = {`https://openweathermap.org/img/wn/${img}@2x.png`}/></p>
             </div>
             
         </div>
