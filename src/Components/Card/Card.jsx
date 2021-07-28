@@ -4,6 +4,7 @@ import style from './Card.module.css'
 
 
 export default function Card({name, temp, flag, img, onClose,id}) {
+    if(name === 'General Rodríguez') name = 'El Freezer'
     if(name === 'Cúcuta') name = 'Calielandia'
     if(name === 'Mazatlán') name = 'Peponópolis'
     if(name === 'New York') name = 'Diego York'
